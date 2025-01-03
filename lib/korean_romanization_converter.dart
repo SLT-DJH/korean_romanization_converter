@@ -1,6 +1,7 @@
 library korean_romanization_converter;
 
-/// A Calculator.
+/// korean to romanization converter
+
 class KoreanRomanizationConverter {
   String romanize(String text) {
     List<String> wordList = [];

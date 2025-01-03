@@ -1,7 +1,7 @@
 name: korean_romanization_converter
 description: "korean romanization converter"
 version: 0.0.1
-homepage:
+homepage: https://github.com/SLT-DJH/korean_romanization_converter
 
 environment:
   sdk: ^3.5.3
