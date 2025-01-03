@@ -16,7 +16,15 @@ and the Flutter guide for
 Korean romanization for dart flutter.
 
 Thanks to 
-1. https://github.com/AaronO/kpop/tree/master
+1. https://github.com/AaronO/kpop
+
+## Getting Started
+Add korean_romanization_converter to your pubspec.yaml file:
+
+```dart
+dependencies:
+  korean_romanization_converter:
+```
 
 ## Usage
 
@@ -27,9 +35,3 @@ final converter = KoreanRomanizationConverter();
 
 var result = converter.romanize('안녕하세요?');
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
