@@ -11,25 +11,21 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Korean romanization for dart flutter.
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Thanks to 
+1. https://github.com/AaronO/kpop/tree/master
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+You can convert korean to romanization in simple way.
 
 ```dart
-const like = 'sample';
+final converter = KoreanRomanizationConverter();
+
+var result = converter.romanize('안녕하세요?');
 ```
 
 ## Additional information
